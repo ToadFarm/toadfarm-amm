@@ -9,6 +9,8 @@ export interface ThemeContextType {
   toggleTheme: () => void;
 }
 
+localStorage.setItem(CACHE_KEY, 'true')
+
 const ThemeContext = React.createContext<ThemeContextType>({ isDark: false, toggleTheme: () => null })
 
 const ThemeContextProvider: React.FC = ({ children }) => {

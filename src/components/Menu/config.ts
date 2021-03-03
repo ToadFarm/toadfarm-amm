@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://toad.farm/',
   },
   {
     label: 'Trade',
@@ -12,23 +12,23 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/?_gl=1*swectk*_ga*MjA1MTM1NTA1Ni4xNjE0Mzg0MTY1*_ga_334KNG3DMQ*MTYxNDM4Njk2MC4yLjAuMTYxNDM4Njk2MS4w#/swap?inputCurrency=0x22d67b3f6acdf8c0682f6fb20590e902deea6ba1',
+        href: 'https://exchange.toad.farm/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/add/ETH/0x22D67B3f6aCdf8c0682f6FB20590E902DeEA6BA1',
+        href: 'https://exchange.toad.farm/#/pool',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: 'https://toad.farm/farms',
   },
   {
     label: 'Breeding Ground',
     icon: 'MoonIcon',
-    href: '/nests',
+    href: 'https://toad.farm/nests',
   },
   // {
   //   label: 'Pools',
