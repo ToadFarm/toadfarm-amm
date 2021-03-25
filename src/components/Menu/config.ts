@@ -7,6 +7,11 @@ const config: MenuEntry[] = [
     href: 'https://toad.farm/',
   },
   {
+    label: 'Farmhub',
+    icon: 'NftIcon',
+    href: 'https://farmhub.community',
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
@@ -85,11 +90,11 @@ const config: MenuEntry[] = [
       // },
     ],
   },
-  // {
-  //   label: 'Audit by Hacken',
-  //   icon: 'AuditIcon',
-  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  // },
+  {
+    label: 'Audit by Solidity (in progress)',
+    icon: 'AuditIcon',
+    href: 'https://solidity.finance/',
+  },
 ]
 
 export default config
