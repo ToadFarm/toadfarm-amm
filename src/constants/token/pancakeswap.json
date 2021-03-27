@@ -18,6 +18,13 @@
       "decimals": 18
     },
     {
+      "name": "Mouse.Farm",
+      "symbol": "MOUSE",
+      "address": "0x71F2f0ce6e858de06e94aad9eF0cD4FFFa298034",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
       "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
