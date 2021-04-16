@@ -69,31 +69,6 @@ const config: MenuEntry[] = [
     icon: 'ToadBreeding',
     href: 'https://toad.farm/nests',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
-  // {
-  //   label: 'Info',
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: 'PancakeSwap',
-  //       href: 'https://pancakeswap.info/token/0x22D67B3f6aCdf8c0682f6FB20590E902DeEA6BA1',
-  //     },
-  //   ],
-  // },
   {
     label: 'More',
     icon: 'MoreIcon',

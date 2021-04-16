@@ -11,6 +11,13 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Snek.Farm",
+      "symbol": "SNEK",
+      "address": "0x6e74C976E67Feae8E83635936Ef79F969e14E869",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
       "name": "Toad.Farm",
       "symbol": "TOAD",
       "address": "0x22D67B3f6aCdf8c0682f6FB20590E902DeEA6BA1",

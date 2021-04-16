@@ -60,6 +60,12 @@ const Swap = () => {
     setDismissTokenWarning(true)
   }, [])
 
+  let isFarmhubToken;
+
+  if( loadedUrlParams?.outputCurrencyId === '0x6e74C976E67Feae8E83635936Ef79F969e14E869' || loadedUrlParams?.outputCurrencyId === '0x71F2f0ce6e858de06e94aad9eF0cD4FFFa298034' || loadedUrlParams?.outputCurrencyId === '0x22D67B3f6aCdf8c0682f6FB20590E902DeEA6BA1'  ) {
+    isFarmhubToken = true;
+  }
+
   const handleConfirmSyrupWarning = useCallback(() => {
     setIsSyrup(false)
     setSyrupTransactionType('')
@@ -284,7 +290,7 @@ const Swap = () => {
   return (
     <>
       <TokenWarningModal
-        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
+        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning && !isFarmhubToken}
         tokens={urlLoadedTokens}
         onConfirm={handleConfirmTokenWarning}
       />
